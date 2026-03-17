@@ -48,7 +48,7 @@ nav span {
   transition: 0.3s;
 }
 
-nav span:hover { color:#ff0000; }
+nav span:hover { color:#ffffff; }
 
 /* Content */
 #content {
@@ -71,7 +71,6 @@ nav span:hover { color:#ff0000; }
   height:180px;
   border-radius:12px;
   overflow:hidden;
-  border:3px solid #ff0000;
 }
 
 #serverPhoto img {
@@ -80,8 +79,8 @@ nav span:hover { color:#ff0000; }
   object-fit:cover;
 }
 
-a { color:#00f; }
-a:hover { color:#0ff; }
+a { color:rgb(255, 255, 255); }
+a:hover { color:rgb(0, 0, 0); }
 
 ul { margin-left:20px; }
 </style>
@@ -101,7 +100,7 @@ ul { margin-left:20px; }
 <!-- Content -->
 <div id="content">
   <h2>Mirësevini në Vortex DeathMatch!</h2>
-  <p>Kliko njërën nga menytë majtas për të parë informacionin.</p>
+  <p>Kliko njërën nga fjalet majtas për të parë informacionin.</p>
 </div>
 
 <!-- Logo djathtas -->
@@ -132,6 +131,7 @@ function showContent(category) {
 
   else if(category === 'Discord') {
     html = `<h2>Discord</h2>
+    <h6>Futu në Discord serverin tonë për info dhe bashkëpunim me lojtarë të tjerë dhe developer-at:<h6>
     <a href="https://discord.gg/SjKyJxkqfk" target="_blank">Kliko për të hyrë</a>`;
   }
 
