@@ -106,7 +106,7 @@ ul { margin-left:20px; }
 
 <!-- Logo djathtas -->
 <div id="serverPhoto">
-  <img src="https://cdn.discordapp.com/attachments/1461646065580249313/1482879548092715018/Vortex_Logo.png" alt="Server Logo">
+  <img src="https://cdn.discordapp.com/attachments/1461646065580249313/1482879548092715018/Vortex_Logo.png?ex=69ba88f2&is=69b93772&hm=91f882052e67a12b4260c30b81211767b2a4016e8ff73d6743dde1b3251976ea&" alt="Server Logo">
 </div>
 
 <script>
